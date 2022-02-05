@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'left to right direction
+
+class Dollar {
+-int amount
++Dollar(int amount)
++times(int multiplier)
+}
+@enduml
